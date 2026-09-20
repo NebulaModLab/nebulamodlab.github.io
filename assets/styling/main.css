@@ -1,0 +1,71 @@
+body {
+  background-color: #24212c;
+  color: white;
+}
+
+.main-text {
+  color: white;
+}
+
+.info-text {
+  color: #b1b1b1;
+}
+
+.colored-text {
+  color: #a898c5;
+}
+
+.colored-text-bright {
+  color: #8069e6;
+}
+
+a:hover {
+  color: white;
+}
+
+.boxed-intro {
+  border-style: solid;
+  border-radius: 0px 25px 25px 0px;
+  border-color: #6957bb;
+}
+
+.boxed-title {
+  background-color: #1a161d;
+  color: white;
+  text-align: center;
+}
+
+.boxed-text {
+  background-color: #1a161d;
+  color: white;
+  border-radius: 25px;
+}
+
+.bordered {
+  border-style: solid;
+  border-radius: 25px 0px 25px 0px;
+  border-color: #6957bb;
+}
+
+ul.fafied {
+  list-style-type: none;
+}
+
+.border-bottom {
+  border-bottom: var(--bs-border-width) var(--bs-border-style) rgba(255, 255, 255, 0.2666666667) !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: #6957bb;
+}
+
+.nav-link {
+  color: #8069e6;
+}
+.nav-link:focus {
+  color: white;
+}
+.nav-link:hover {
+  color: white;
+}/*# sourceMappingURL=main.css.map */

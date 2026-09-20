@@ -1,0 +1,71 @@
+
+$backgroundColor: #24212c;
+$mainText: white;
+$infoText: #b1b1b1;
+$coloredText: #a898c5;
+$coloredTextBright: #8069e6;
+$buttonColorA: #8978a8;
+$buttonColorB: #6957bb;
+
+body {
+    background-color: $backgroundColor;
+    color: $mainText;
+}
+.main-text {
+    color: $mainText;
+}
+.info-text {
+    color: $infoText;
+}
+.colored-text {
+    color: $coloredText;
+}
+.colored-text-bright {
+    color: $coloredTextBright;
+}
+a:hover {
+    color: $mainText;
+}
+
+.boxed-intro {
+    border-style: solid;
+    border-radius: 0px 25px 25px 0px;
+    border-color: $buttonColorB;
+}
+.boxed-title {
+    background-color: #1a161d;
+    color: $mainText;
+    text-align: center;
+}
+.boxed-text {
+    background-color: #1a161d;
+    color: $mainText;
+    border-radius: 25px;
+}
+.bordered {
+    border-style: solid;
+    border-radius: 25px 0px 25px 0px;
+    border-color: $buttonColorB;
+}
+
+ul.fafied {
+  list-style-type: none;
+}
+
+// SCSS Bootstrap Overrides
+.border-bottom {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) #ffffff44 !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: $buttonColorB;
+}
+.nav-link {
+    color: $coloredTextBright;
+    &:focus {
+        color: white;
+    }
+    &:hover {
+        color: white;
+    }
+}
